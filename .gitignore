@@ -1,0 +1,4 @@
+assets/*
+!assets/videos/
+assets/videos/*
+!assets/videos/README.md
