@@ -5,6 +5,7 @@ services:
     build: nginx/
     volumes:
       - ./assets/videos:/usr/local/nginx/html/video:ro
+      - ./assets/audio:/usr/local/nginx/html/audio:ro
       - ./nginx/nginx.conf:/etc/nginx/nginx.conf
       - ./nginx/conf.d:/etc/nginx/conf.d
       - ./nginx/html/stat.xsl:/usr/local/nginx/html/stat.xsl

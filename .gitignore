@@ -2,3 +2,6 @@ assets/*
 !assets/videos/
 assets/videos/*
 !assets/videos/README.md
+!assets/audio/
+assets/audio/*
+!assets/audio/README.md
